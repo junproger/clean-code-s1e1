@@ -29,7 +29,7 @@
 
 }
 
-.centered-main-page-element {
+.main-page {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -41,7 +41,7 @@
   flex-grow: 1
 }
 
-.task-row-wrapper {
+.add-item {
   display: flex;
 }
 
@@ -156,7 +156,7 @@ button.delete img:hover {
 
 /* Completed */
 
-ul#completed-tasks label {
+ul#completed label {
   text-decoration: line-through;
   color: #888;
 }

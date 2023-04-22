@@ -1,3 +1,18 @@
+/* Reset styles */
+
+ul {
+  margin: 0;
+  padding: 0px;
+}
+  
+li {
+  list-style: none;
+}
+  
+input {
+  outline: none;
+}
+
 /* Basic Style */
 
 .body {
@@ -43,21 +58,6 @@
 
 .add-item {
   display: flex;
-}
-
-ul {
-  margin: 0;
-  padding: 0px;
-}
-
-li,
-h3 {
-  list-style: none;
-}
-
-input,
-button{
-  outline: none;
 }
 
 button {

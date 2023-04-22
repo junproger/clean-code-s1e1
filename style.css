@@ -165,7 +165,7 @@ ul#completed label {
 
 /* Edit Task */
 
-ul li input[type=text] {
+ul li input[type="text"] {
   display: none
 }
 

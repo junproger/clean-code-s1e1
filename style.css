@@ -152,7 +152,7 @@ input {
 
 /* Completed */
 
-ul#completed label {
+#completed .task-label {
   text-decoration: line-through;
   color: #888;
 }

@@ -140,13 +140,13 @@ input {
   margin: 0 10px;
 }
 
-button.delete img {
+.delete-image {
   height: 2em;
   transform: rotate(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+.delete-image:hover {
   transform: rotate(0);
 }
 

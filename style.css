@@ -159,15 +159,15 @@ input {
 
 /* Edit Task */
 
-ul li input[type="text"] {
+.list-item .task {
   display: none;
 }
 
-ul li.edit-mode input[type="text"] {
+.edit-mode .task {
   display: inline-block;
   width: 224px;
 }
 
-ul li.edit-mode label {
+.edit-mode .task-label {
   display: none;
 }

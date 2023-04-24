@@ -70,8 +70,8 @@ input {
   margin: 20px 0 0;
 }
 
-.button,
-.add-item__button {
+.add-item__button,
+.list-item__button {
   background: none;
   border: 0px;
   color: #888;
@@ -81,8 +81,8 @@ input {
   cursor: pointer;
 }
 
-.button:hover,
-.add-item__button:hover {
+.add-item__button:hover,
+.list-item__button:hover {
   color: #3a3a3a;
 }
 
@@ -140,13 +140,13 @@ input {
   margin: 0 10px;
 }
 
-.delete-image {
+.list-item__button-image {
   height: 2em;
   transform: rotate(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete-image:hover {
+.list-item__button-image:hover {
   transform: rotate(0);
 }
 

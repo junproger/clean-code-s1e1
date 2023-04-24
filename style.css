@@ -28,11 +28,11 @@ input {
   text-align: right;
 }
 
-.header-image {
+.header__image {
   width: 100%;
 }
 
-.header .more-info {
+.header__details {
   font-family: "Fantasy", cursive;
 }
 

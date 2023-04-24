@@ -51,6 +51,7 @@ input {
 }
 
 .task-label,
+.add-item__new-task,
 .task {
   width: 56%;
   display: inline-block;
@@ -66,9 +67,11 @@ input {
 
 .add-item {
   display: flex;
+  margin: 20px 0 0;
 }
 
-.button {
+.button,
+.add-item__button {
   background: none;
   border: 0px;
   color: #888;
@@ -78,13 +81,14 @@ input {
   cursor: pointer;
 }
 
-.button:hover {
+.button:hover,
+.add-item__button:hover {
   color: #3a3a3a;
 }
 
 /* Heading */
 
-.add-label,
+.title,
 .section-title {
   color: #333;
   font-weight: 700;
@@ -95,7 +99,8 @@ input {
   text-transform: uppercase;
 }
 
-.task {
+.task,
+.add-item__new-task {
   margin: 0;
   width: 226px;
   font-size: 18px;
@@ -109,18 +114,14 @@ input {
   color: #888;
 }
 
-.task:focus {
+.task:focus,
+.add-item__new-task:focus {
   color: #333;
 }
 
 /* New Task */
 
-.add-label {
-  display: block;
-  margin: 0 0 20px;
-}
-
-#new-task {
+.add-item__new-task {
   width: 318px;
 }
 

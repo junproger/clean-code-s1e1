@@ -1,15 +1,17 @@
 /* Reset styles */
 
-ul {
+.incomplete,
+.completed {
   margin: 0;
   padding: 0px;
 }
   
-li {
+.list-item {
   list-style: none;
 }
   
-input {
+.add-item__new-task,
+.list-item__edit-task {
   outline: none;
 }
 
